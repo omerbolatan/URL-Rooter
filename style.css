@@ -1,0 +1,125 @@
+  input[type="submit"] {  
+    margin-bottom: 25px;  
+  }
+  
+input[type=submit] {  
+border: 3px solid;  
+border-radius: 2px;  
+display: block;  
+font-size: 1em;  
+font-weight: bold;  
+margin: 1em auto;  
+padding: 1em 4em;  
+position: relative;  
+text-transform: uppercase;  
+
+
+
+}  
+input[type=submit]::before,  
+input[type=submit]::after {  
+background: #fff;  
+content: '';  
+position: absolute;  
+z-index: -1;  
+
+}  
+input[type=submit]:hover {  
+color: #1A33FF;  
+}  
+
+
+
+
+input[type="button"] {  
+    margin-bottom: 40px;  
+  }
+  
+input[type=button] {  
+border: 3px solid;  
+border-radius: 2px;  
+display:flex;  
+font-size: 1em;  
+font-weight: bold;  
+margin: 1em auto;  
+
+position: relative;  
+text-transform: uppercase;  
+
+
+
+}  
+input[type=button]::before,  
+input[type=button]::after {  
+background: #fff;  
+content: '';  
+position: absolute;  
+z-index: -1;  
+
+}  
+input[type=button]:hover {  
+color: #1A33FF;  
+}  
+
+input[type=text]::before,  
+input[type=text]::after {  
+background: #fff;  
+content: '';  
+position: absolute;  
+z-index: -1;  
+}  
+input[type=text]:hover {  
+color: #1A33FF;  
+}  
+input[type="submit"] {  
+    margin-bottom: 25px;  
+  }  
+  input[type=text] {  
+border: 3px solid;  
+border-radius: 2px;  
+display: block;  
+font-size: 1em;    
+margin: 1em auto;  
+padding: 1em 4em;  
+position: relative;    
+
+}  
+.add {
+    width: 600px;
+    height: 300px;
+    padding: 20px;
+    position: relative;
+    margin: auto;
+    max-width: 400px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.input-container {
+    position:relative;
+    margin:auto;
+    max-width: 400px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+
+.submit-container {
+    position:relative;
+    margin:auto;
+    max-width: 400px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+h1 {  
+    font-style: bold;  
+    font-family: Arial, Helvetica, sans-serif;
+    color: #383838;   
+   letter-spacing: -0.005em;   
+   word-spacing:1px;  
+   font-size: 1.75em;  
+   font-weight: bold;  
+     }  
+
+     body {background-color: coral;} 

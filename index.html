@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Url Router</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<body>
+  <form method="post">
+    <div class="add">
+      <h1>Kısa Link Oluştur;</h1>
+        <div class="input-container">
+            <h1>URL Yönlendirici</h1>
+            <input type="text" id="longurl" name="longurl" placeholder="Boş Bırakılamaz">
+            <h1>Kısa URL</h1>
+            <input type="text" id="opsionalurl" name="opsionalurl" >
+        </div>
+          <div class="submit-container">
+          <input type="submit" value="Tamam">
+          </div>
+          <div id="result"></div>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+          <script src="script.js"></script>
+    </div>
+    <input type="button" onClick="location.href='route.html'" value="Link Yönlendirici" />
+  </form>
+
+</body>
+</html>
